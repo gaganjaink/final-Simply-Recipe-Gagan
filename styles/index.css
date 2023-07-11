@@ -117,11 +117,16 @@ ul li{
     
 }
 .card_menu_ol li{
-    list-style: none;
-    transition: color 1s;
+    list-style: none;   
   
 }
-.card_menu_ol li:hover{
+
+.card_menu_ol li a{
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+}
+.card_menu_ol li a:hover{
     color: #645cff;
     cursor: pointer;
 }
